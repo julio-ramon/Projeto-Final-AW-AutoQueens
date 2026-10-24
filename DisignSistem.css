@@ -31,6 +31,9 @@
         display: flex;
         gap: 10px;
     }
+    .titulo-nav a{
+        text-decoration: none;
+    }
     .inscreva-se{
         background-color: var(--amarelo);
         padding: 3px;
