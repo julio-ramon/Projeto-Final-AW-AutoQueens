@@ -1,0 +1,46 @@
+:root{
+    --azul-escuro: rgb(#002147);
+    --preto: black;
+    --cinza:rgb(#666666);
+    --amarelo: #F2C744;
+
+}
+#slogan{
+    box-sizing: border-box;
+    width: 100%;
+    aspect-ratio: 39 / 10;
+    padding: 3.2%;
+    container-type: inline-size;
+    background-color: #002147;
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.75), transparent 75%), url("../imagens/carro de corrida.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    color: white;
+}
+#slogan > div{
+    width: 100%;
+    /* Base proporcional à largura do banner; os filhos usam porcentagens. */
+    font-size: 1cqw;
+}
+.slogan-titulo{
+    margin: 0 0 1.4%;
+    font-size: 342%;
+    font-weight: 700;
+    line-height: 120%;
+}
+.slogan-titulo b{
+    color: var(--amarelo);
+}
+#ver-noticias{
+    background-color: var(--amarelo);
+    padding: 0.85% 1.7%;
+    font-size: 137%;
+    width: fit-content;
+}
+#ver-noticias a{
+    text-decoration: none;
+    color: black;
+}
